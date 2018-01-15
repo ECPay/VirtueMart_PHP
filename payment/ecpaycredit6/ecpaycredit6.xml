@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.0" type="plugin" group="vmpayment" method="upgrade">
+    <name>ECPay - VitueMart - Credit Card in 6 installments Payment</name>
+    <creationDate>December 2017</creationDate>
+    <author>Green World FinTech Service Co., Ltd.</author>
+    <authorUrl>https://www.ecpay.com.tw</authorUrl>
+    <copyright>Copyright (C) 2017 Green World FinTech Service Co., Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <version>1.0.0</version>
+    <description>ECPay Credit Card in 6 installments Payment Plugin</description>
+    <languages>
+        <language tag="en-GB">en-GB.plg_vmpayment_ecpaycredit6.ini</language>
+        <language tag="en-GB">en-GB.plg_vmpayment_ecpaycredit6.sys.ini</language>
+        <language tag="zh-TW">zh-TW.plg_vmpayment_ecpaycredit6.ini</language>
+        <language tag="zh-TW">zh-TW.plg_vmpayment_ecpaycredit6.sys.ini</language>
+    </languages>
+    <files>
+        <filename plugin="ecpaycredit6">ecpaycredit6.php</filename>
+        <filename>ECPay.Payment.Integration.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="payment">
+                <field name="test_mode" type="radio" default="yes" label="VMPAYMENT_ECPAY_CREDIT6_TEST_MODE" description="VMPAYMENT_ECPAY_CREDIT6_TEST_MODE_EXPLAIN">
+                    <option value="yes">VMPAYMENT_ECPAY_CREDIT6_TEST_MODE_YES</option>
+                    <option value="no">VMPAYMENT_ECPAY_CREDIT6_TEST_MODE_NO</option>
+                </field>
+                <field name="test_prefix" type="text" size="50" default="vm" label="VMPAYMENT_ECPAY_CREDIT6_TEST_PREFIX" description="VMPAYMENT_ECPAY_CREDIT6_TEST_PREFIX_EXPLAIN" />  
+                <field name="merchant_id" type="text" size="50" default="2000132" label="VMPAYMENT_ECPAY_CREDIT6_MERCHANT_ID" description="VMPAYMENT_ECPAY_CREDIT6_MERCHANT_ID_EXPLAIN" />
+                <field name="hash_key" type="text" size="50" default="5294y06JbISpM5x9" label="VMPAYMENT_ECPAY_CREDIT6_HASH_KEY" description="VMPAYMENT_ECPAY_CREDIT6_HASH_KEY_EXPLAIN" />
+                <field name="hash_iv" type="text" size="50" default="v77hoKGq4kWxNNIS" label="VMPAYMENT_ECPAY_CREDIT6_HASH_IV" description="VMPAYMENT_ECPAY_CREDIT6_HASH_IV_EXPLAIN" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
