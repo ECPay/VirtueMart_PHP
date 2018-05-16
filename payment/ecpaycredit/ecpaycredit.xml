@@ -6,7 +6,7 @@
     <authorUrl>https://www.ecpay.com.tw</authorUrl>
     <copyright>Copyright (C) 2017 Green World FinTech Service Co., Ltd. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
-    <version>1.0.0</version>
+    <version>1.0.180420</version>
     <description>ECPay Credit Card Payment Plugin</description>
     <languages>
         <language tag="en-GB">en-GB.plg_vmpayment_ecpaycredit.ini</language>

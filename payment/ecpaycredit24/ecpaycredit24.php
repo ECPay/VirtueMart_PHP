@@ -38,7 +38,7 @@ class plgVmPaymentECPayCredit24 extends vmPSPlugin {
      * @param type $data
      * @return type
      */
-    function plgVmDeclarePluginParamsPayment($name, $id, &$data) {
+    function plgVmDeclarePluginParamsPaymentVM3($name, $id, &$data) {
         return $this->declarePluginParams('payment', $name, $id, $data);
     }
 
