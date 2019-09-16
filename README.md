@@ -1,4 +1,4 @@
-# 綠界科技 全方位(All In One)金流整合介接 PrestaShop 購物車版
+# 綠界科技 全方位(All In One)金流整合介接 VirtueMart 購物車版
 ---
 
 ## 1. 介紹
@@ -7,7 +7,7 @@
 
 
 ## 2. 支援版本
-   - PrestaShop 1.6.1.4~1.6.1.7
+   - Joomla Version 3.8.3 VirtueMart Version 3.2.10
   
  
 
